@@ -6,11 +6,11 @@
     "best",
     "open",
     "source",
-    "Rename"
+    "Renamer"
   ],
   "success_url": "https://t.me/rename1robot",
-  "website": "https://github.com/No-OnE-Kn0wS-Me",
-  "repository": "https://github.com/No-OnE-Kn0wS-Me/FileRenameBot",
+  "website": "https://github.com/CLaY9950",
+  "repository": "https://github.com/CLaY9950/Renamer-Pro",
   "env": {
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
