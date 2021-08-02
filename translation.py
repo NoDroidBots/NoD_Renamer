@@ -1,22 +1,22 @@
 class Translation(object):
-    START_TEXT = """ <b> Hi {} , I'm A Simple File Renamer+File To Video Converter Bot With Permanent Thumbnail support!💯</b> \n
+    START_TEXT = """ <b> нι {} , ιм α ѕιмρℓє 📁ƒιℓє яєηαмєя+ƒιℓє тσ νι∂єσ ¢σηνєятєя вσт ωιтн ρєямαηєηт тнυмвηαιℓ ѕυρρσят!💯</b> \n
 
-<b>Bot Maintained By: @MaI_BoTs </b> \n 
+<b>👨🏼‍💻ʙᴏᴛ 🄼🄰🄸🄽🅃🄰🄸🄽🄴🄳 ву: @CLaY995 </b> \n 
 """
 
     RENAME_403_ERR = "What Are You Doing? Bruuh!!"
     BANNED_USER_TEXT = "Sorry!! But Mai Owner As Banned You From Using This Service. That Means You Can't Run Meh Now! \n \n Contact : @No_OnE_Kn0wS_Me For more Details.. " 
     ABS_TEXT = "What Are You Trying To Do,Mate?"
-    UPGRADE_TEXT = "CONTACT @No_OnE_Kn0wS_Me "
-    DOWNLOAD_START = "<b>Downloading To My server !! pls Wait</b>"
-    UPLOAD_START = "<b>Downloading Completed Now I'm Uploading Into TG</b>"
+    UPGRADE_TEXT = "<b>¢σηтα¢т👉 @CLaY995</b>"
+    DOWNLOAD_START = "<b>𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗜𝗡𝗚 📥 ᴛᴏ ᴍᴀ sᴇʀᴠᴇʀ 💻 !! 🄿🄻🄴🄰🅂🄴 🅆🄰🄸🅃</b>"
+    UPLOAD_START = "<b>𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙴 - ✅.ɴᴏᴡ ɪ'ᴍ ᴜᴘʟᴏᴀᴅɪɴɢ ᴛᴏ 𝗧𝗚</b>"
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry Do You Think! I'll Upload It?"
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "<b>Thank you for Using Me Support Our Channel @mai_bots</b>"
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "<b>𝗧𝗵𝗮𝗻𝗸𝗬𝗼𝘂 for Using 𝗠𝗲. Support Our 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 👉 @PrimeFlixMedia_All</b>"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds.\nUploaded in {} seconds"
-    NOT_AUTH_USER_TEXT = "CONTACT @No_OnE_Kn0wS_Me "
-    NOT_AUTH_USER_TEXT_FILE_SIZE = "IF You Got This Message You Should Contact @No_OnE_Kn0wS_Me "
-    SAVED_CUSTOM_THUMB_NAIL = "<b>thumbnail Saved ✅ This Is Permanent Until</b> /delthumb ❤"
-    DEL_ETED_CUSTOM_THUMB_NAIL = "thumbnail cleared succesfully🤦"
+    NOT_AUTH_USER_TEXT = "<b>CONTACT @CLaY995</b>"
+    NOT_AUTH_USER_TEXT_FILE_SIZE = "IF You Got This Message You Should Contact @CLaY995 "
+    SAVED_CUSTOM_THUMB_NAIL = "<b>𝗧𝗵𝘂𝗺𝗯𝗻𝗮𝗶𝗹 Saved ✅ This Is 𝗣𝗲𝗿𝗺𝗮𝗻𝗲𝗻𝘁 Until</b> /delthumb ❤"
+    DEL_ETED_CUSTOM_THUMB_NAIL = "thumbnail cleared 𝗦𝘂𝗰𝗰𝗲𝘀𝗳𝘂𝗹𝗹𝘆🤦"
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "Media cleared succesfully."
     SAVED_RECVD_DOC_FILE = "<b>File Downloaded Successfully 😎</b>"
     REPLY_TO_DOC_FOR_RENAME_FILE = "<b>Please Reply To An File With /rename fil name extension To rename a file</b>"
@@ -26,7 +26,7 @@ class Translation(object):
     NO_THUMB_FOUND = "No Thumbnail found"
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     IFLONG_FILE_NAME = """You Gotta Be Kidding Me...Decrease The Number Of Letters😆😉"""
-    ABOUT_ME = """<b>Meh : \n An Telegram File Renamer Bot Which Can Rename A Telegram Files. \n You Can Set Permanent Thumbnail For The File So You Don't Have To Send Custom Thumbs All The Time.\n \n i can also convert files into videos \n Feedback @No_OnE_Kn0wS_Me If You Found Meh Useful</b>"""
+    ABOUT_ME = """<b>Meh : \n A Telegram File Renamer Bot Which Can Rename Telegram Files. \n You Can Set Permanent Thumbnail For The File So You Don't Have To Send Custom Thumbs All The Time.\n \n I can also convert files into videos \n Feedback @CLaY995 If You Found Meh Useful</b>"""
     HELP_USER = """Checkout The Available Commands Here \n\n Do Follow @MaI_BoTs If You Find This Bot Usefull❤️"""
     RENAME_HELP = """Here are The Available Commands In Reanme \n\n\n▪️ <code>/rename</code> : Reply To An File/video With <code>/rename Filename.extension</code> For Renaming"""
     C2V_HELP = """Here Are The Available Commands In File To Video \n\n\n ▪️<code>/c2v</code> : Reply To An File With /c2v To Convert It Into Video"""
