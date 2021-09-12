@@ -23,7 +23,7 @@ from translation import Translation
 import pyrogram
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 from pyrogram import filters 
-from pyrogram import Client as Mai_bOTs
+from pyrogram import Client as NoD_Bot
 
 #from helper_funcs.chat_base import TRChatBase
 from helper_funcs.display_progress import progress_for_pyrogram
@@ -37,8 +37,8 @@ from hachoir.parser import createParser
 from PIL import Image
 from database.database import *
 
-#@Mai_bOTs.on_message((filters.document | filters.video) & ~filters.edited & ~filters.chat(chat_id))
-#@Mai_bOTs.on_message((filters.document | filters.video) & ~filters.edited)
+#@NoD_Bot.on_message((filters.document | filters.video) & ~filters.edited & ~filters.chat(chat_id))
+#@NoD_Bot.on_message((filters.document | filters.video) & ~filters.edited)
 #async def newfile(bot, update):
     #if update.document:
         #await bot.forward_messages(
@@ -53,21 +53,21 @@ from database.database import *
              #message_ids = update.message_id
        #)  
 
-@Mai_bOTs.on_message(pyrogram.filters.command(["rename"]))
+@NoD_Bot.on_message(pyrogram.filters.command(["rename"]))
 async def rename_doc(bot, update):
     update_channel = Config.UPDATE_CHANNEL
     if update_channel:
         try:
             user = await bot.get_chat_member(update_channel, update.chat.id)
             if user.status == "kicked":
-               await update.reply_text(" Sorry, You are **B A N N E D**")
+               await update.reply_text(" Sorry, You are **B A N N E D** 🚫")
                return
         except UserNotParticipant:
             #await update.reply_text(f"Join @{update_channel} To Use Me")
             await update.reply_text(
-                text="**Plz Join Ma Movie Channel Before Using Me..**",
+                text="**Plz Join my Updates Channel Before Using Me..**",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="Join My Movie Channel", url=f"https://t.me/{update_channel}")]
+                    [ InlineKeyboardButton(text="Join My Updates Channel", url=f"https://t.me/{update_channel}")]
               ])
             )
             return
