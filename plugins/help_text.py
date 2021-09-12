@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Shrimadhav U K & @No_OnE_Kn0wS_Me
+# (c) Shrimadhav U K & @NoDroid_Bots
 
 # the logging things
 import logging
@@ -13,7 +13,7 @@ import pyrogram
 import os
 import sqlite3
 from pyrogram import filters
-from pyrogram import Client as Mai_bOTs
+from pyrogram import Client as NoD_Bot
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery, Message
 from pyrogram.errors import UserNotParticipant, UserBannedInChannel 
 
@@ -38,20 +38,20 @@ def GetExpiryDate(chat_id):
     return expires_at
 
 
-@Mai_bOTs.on_message(pyrogram.filters.command(["help"]))
+@NoD_Bot.on_message(pyrogram.filters.command(["help"]))
 async def help_user(bot, update):
     update_channel = Config.UPDATE_CHANNEL
     if update_channel:
         try:
             user = await bot.get_chat_member(update_channel, update.chat.id)
             if user.status == "kicked":
-               await update.reply_text(" Sorry, You are **B A N N E D**")
+               await update.reply_text(" Sorry, You are **B A N N E D** 🚫")
                return
         except UserNotParticipant:
             await update.reply_text(
-                text="**Plz Join Ma Movie Channel Before Using Me..**",
+                text="**Plz Join my Updates Channel Before Using Me..**",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="Join My Movie Channel", url=f"https://t.me/{update_channel}")]
+                    [ InlineKeyboardButton(text="Join My Updates Channel", url=f"https://t.me/{update_channel}")]
               ])
             )
             return
@@ -62,18 +62,18 @@ async def help_user(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('📝яєηαмє', callback_data = "rnme"),
-                    InlineKeyboardButton('📂ƒιℓє-тσ-νι∂єσ', callback_data = "f2v")
+                    InlineKeyboardButton('🖋️ Rename', callback_data = "rnme"),
+                    InlineKeyboardButton('📼 File-to-Video', callback_data = "f2v")
                 ],
                 [
-                    InlineKeyboardButton('🎞️¢υѕтσм тнυмвηαιℓ', callback_data = "cthumb"),
-                    InlineKeyboardButton('💬αвσυт', callback_data = "about")
+                    InlineKeyboardButton('🖼️ Custom Thumbnail', callback_data = "cthumb"),
+                    InlineKeyboardButton('👤 About', callback_data = "about")
                 ]
             ]
         )
     )       
 
-@Mai_bOTs.on_message(pyrogram.filters.command(["start"]))
+@NoD_Bot.on_message(pyrogram.filters.command(["start"]))
 async def start_me(bot, update):
     if update.from_user.id in Config.BANNED_USERS:
         await update.reply_text("You are Banned")
@@ -88,9 +88,9 @@ async def start_me(bot, update):
         except UserNotParticipant:
             #await update.reply_text(f"Join @{update_channel} To Use Me")
             await update.reply_text(
-                text="**Plz Join Ma Movie Channel Before Using Me..**",
+                text="**Plz Join my Updates Channel Before Using Me..**",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="Join My Movie Channel", url=f"https://t.me/{update_channel}")]
+                    [ InlineKeyboardButton(text="Join My Updates Channel", url=f"https://t.me/{update_channel}")]
               ])
             )
             return
@@ -99,15 +99,14 @@ async def start_me(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                        InlineKeyboardButton("нєℓρ", callback_data = "ghelp")
+                        InlineKeyboardButton("Help 💭", callback_data = "ghelp")
                 ],
                 [
-                    InlineKeyboardButton('¢нαηηєℓ', url='https://t.me/PrimeFlixMedia_All'),
-                    InlineKeyboardButton('👨🏼‍💻мα~¢яєαтσя', url='https://t.me/CLaY995')
+                    InlineKeyboardButton('Update Channel 📢', url='https://t.me/PrimeFlixMedia_All'),
+                    InlineKeyboardButton('Developer 🧑‍💻', url='https://t.me/CLaY995')
                 ],
                 [
-                    InlineKeyboardButton('мα~gяσυρ', url='https://t.me/PrimeFlix_Chats'),
-                    InlineKeyboardButton('ѕσυя¢є-¢σ∂є', url='https://t.me/Oomban_ULLATH')
+                    InlineKeyboardButton('Support Group', url='https://t.me/CLaY995')
                 ]
             ]
         ),
@@ -115,8 +114,8 @@ async def start_me(bot, update):
     )
             return 
 
-@Mai_bOTs.on_callback_query()
-async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
+@NoD_Bot.on_callback_query()
+async def cb_handler(client: NoD_Bot , query: CallbackQuery):
     data = query.data
     if data == "rnme":
         await query.message.edit_text(
