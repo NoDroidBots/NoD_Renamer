@@ -1,20 +1,20 @@
 class Translation(object):
-    START_TEXT = """ <b> нι {} , ιм α ѕιмρℓє 📁ƒιℓє яєηαмєя+ƒιℓє тσ νι∂єσ ¢σηνєятєя вσт ωιтн ρєямαηєηт тнυмвηαιℓ ѕυρρσят!💯</b> \n
+    START_TEXT = """ <b> нι {} , Im a Simple File Renamer + Video Converter Bot with Permanent Thumbnail Support 💥</b> \n
 
-<b>👨🏼‍💻ʙᴏᴛ 🄼🄰🄸🄽🅃🄰🄸🄽🄴🄳 ву: @CLaY995 </b> \n 
+<b>👨🏼‍💻 Maintained by: @NoDroid_Bots </b> \n 
 """
 
     RENAME_403_ERR = "What Are You Doing? Bruuh!!"
     BANNED_USER_TEXT = "Sorry!! But Mai Owner As Banned You From Using This Service. That Means You Can't Run Meh Now! \n \n Contact : @No_OnE_Kn0wS_Me For more Details.. " 
     ABS_TEXT = "What Are You Trying To Do,Mate?"
-    UPGRADE_TEXT = "<b>¢σηтα¢т👉 @CLaY995</b>"
-    DOWNLOAD_START = "<b>𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗜𝗡𝗚 📥 ᴛᴏ ᴍᴀ sᴇʀᴠᴇʀ 💻 !! 🄿🄻🄴🄰🅂🄴 🅆🄰🄸🅃</b>"
-    UPLOAD_START = "<b>𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙴 - ✅.ɴᴏᴡ ɪ'ᴍ ᴜᴘʟᴏᴀᴅɪɴɢ ᴛᴏ 𝗧𝗚</b>"
+    UPGRADE_TEXT = "<b>Contact👉 @Nodroid_Support</b>"
+    DOWNLOAD_START = "<b>Downloading 📥 to my Server 💻 !! Please Wait ⏱️</b>"
+    UPLOAD_START = "<b>Download Complete - ✅.ɴᴏᴡ ɪ'ᴍ ᴜᴘʟᴏᴀᴅɪɴɢ ᴛᴏ 𝗧𝗚</b>"
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry Do You Think! I'll Upload It?"
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "<b>𝗧𝗵𝗮𝗻𝗸𝗬𝗼𝘂 for Using 𝗠𝗲. Support Our 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 👉 @PrimeFlixMedia_All</b>"
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "<b>𝗧𝗵𝗮𝗻𝗸𝗬𝗼𝘂 for Using 𝗠𝗲. Support Our 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 👉 @NoDroid_Bots</b>"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds.\nUploaded in {} seconds"
     NOT_AUTH_USER_TEXT = "<b>CONTACT @CLaY995</b>"
-    NOT_AUTH_USER_TEXT_FILE_SIZE = "IF You Got This Message You Should Contact @CLaY995 "
+    NOT_AUTH_USER_TEXT_FILE_SIZE = "IF You Got This Message You Should Contact @NoDroid_Support "
     SAVED_CUSTOM_THUMB_NAIL = "<b>𝗧𝗵𝘂𝗺𝗯𝗻𝗮𝗶𝗹 Saved ✅ This Is 𝗣𝗲𝗿𝗺𝗮𝗻𝗲𝗻𝘁 Until</b> /delthumb ❤"
     DEL_ETED_CUSTOM_THUMB_NAIL = "thumbnail cleared 𝗦𝘂𝗰𝗰𝗲𝘀𝗳𝘂𝗹𝗹𝘆🤦"
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "Media cleared succesfully."
