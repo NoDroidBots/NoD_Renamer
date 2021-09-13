@@ -103,10 +103,10 @@ async def start_me(bot, update):
                 ],
                 [
                     InlineKeyboardButton('Update Channel 📢', url='https://t.me/PrimeFlixMedia_All'),
-                    InlineKeyboardButton('Developer 🧑‍💻', url='https://t.me/CLaY995')
+                    InlineKeyboardButton('Developer 🧑‍💻', url='https://t.me/NoDroi_Bots')
                 ],
                 [
-                    InlineKeyboardButton('Support Group', url='https://t.me/CLaY995')
+                    InlineKeyboardButton('Support Group', url='https://t.me/NoDroid_Support')
                 ]
             ]
         ),
