@@ -102,8 +102,8 @@ async def start_me(bot, update):
                         InlineKeyboardButton("Help 💭", callback_data = "ghelp")
                 ],
                 [
-                    InlineKeyboardButton('Update Channel 📢', url='https://t.me/PrimeFlixMedia_All'),
-                    InlineKeyboardButton('Developer 🧑‍💻', url='https://t.me/NoDroi_Bots')
+                    InlineKeyboardButton('Update Channel 📢', url='https://t.me/NoDroid_Bots'),
+                    InlineKeyboardButton('Developer 🧑‍💻', url='https://t.me/NoDroid_Bots')
                 ],
                 [
                     InlineKeyboardButton('Support Group', url='https://t.me/NoDroid_Support')
