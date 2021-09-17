@@ -1,5 +1,6 @@
 class Translation(object):
-    START_TEXT = """ <b> нι {} , Im a Simple File Renamer + Video Converter Bot with Permanent Thumbnail Support 💥</b> \n
+    START_TEXT = """ 
+<b> нι {} , Im a Simple File Renamer + Video Converter Bot with Permanent Thumbnail Support 💥</b>
 
 <b>👨🏼‍💻 Maintained by: @NoDroid_Bots </b>
 """
@@ -16,7 +17,7 @@ class Translation(object):
     NOT_AUTH_USER_TEXT = "<b>CONTACT @CLaY995</b>"
     NOT_AUTH_USER_TEXT_FILE_SIZE = "IF You Got This Message You Should Contact @NoDroid_Support "
     SAVED_CUSTOM_THUMB_NAIL = "<b>𝗧𝗵𝘂𝗺𝗯𝗻𝗮𝗶𝗹 Saved ✅ This Is 𝗣𝗲𝗿𝗺𝗮𝗻𝗲𝗻𝘁 Until</b> /delthumb ❤"
-    DEL_ETED_CUSTOM_THUMB_NAIL = "thumbnail cleared 𝗦𝘂𝗰𝗰𝗲𝘀𝗳𝘂𝗹𝗹𝘆🤦"
+    DEL_ETED_CUSTOM_THUMB_NAIL = "Thumbnail cleared 𝗦𝘂𝗰𝗰𝗲𝘀𝗳𝘂𝗹𝗹𝘆🤦"
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "Media cleared succesfully."
     SAVED_RECVD_DOC_FILE = "<b>File Downloaded Successfully 😎</b>"
     REPLY_TO_DOC_FOR_RENAME_FILE = "<b>Please Reply To An File With /rename fil name extension To rename a file</b>"
@@ -27,7 +28,7 @@ class Translation(object):
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     IFLONG_FILE_NAME = """<b>You Gotta Be Kidding Me 😆...Decrease The Number Of Letters😆😉</b>"""
     ABOUT_ME = """<b>🤖 Me: \n▫️ A Telegram File Renamer Bot Which Can Rename Telegram Files. \n▫️ You Can Set Permanent Thumbnail For The File So You Don't Have To Send Custom Thumbs All The Time.\n I can also convert files into videos \n\n▫️ Queries @NoDroid_Support 💭</b>"""
-    HELP_USER = """Checkout The Available Commands Here \n\n Do Follow @NoDroid_Bots If You Find This Bot Usefull❤️"""
-    RENAME_HELP = """Here are The Available Commands In Reanme \n\n\n▪️ /rename: Reply To An File/video With <i>/rename Filename.extension</i> For Renaming"""
-    C2V_HELP = """Here Are The Available Commands In File To Video \n\n\n ▪️ /c2v: Reply To An File With /c2v To Convert It Into Video"""
+    HELP_USER = """▫️ <b>Checkout The Available Commands Here</b>\n\n▫️ <b>Do Follow @NoDroid_Bots If You Find This Bot Usefull ❤️</b>"""
+    RENAME_HELP = """▫️ Here are The Available Commands In <b>File Rename</b>\n\n▪️ /rename: Reply To An File/video With <code>/rename Filename.extension</code> For Renaming 🖋️"""
+    C2V_HELP = """▫️ Here Are The Available Commands In <b>File To Video</b> \n\n▪️ /c2v: Reply To An File With /c2v To Convert It Into Video"""
     THUMBNAIL_HELP = """▫️ Here Are The Available Commands In <b>Custom Thumbnail</b> \n\n\n▪️ Send A Photo To Set The Custom Thumbnail \n▪️ /showthumb: For Checking The Current Thumbnail \n▪️ /delthumb: For Deleting The Current Saved Thumbnail"""
