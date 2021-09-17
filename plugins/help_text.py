@@ -163,11 +163,11 @@ async def cb_handler(client: NoD_Bot , query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('🖋️' Rename, callback_data = "rnme"),
+                    InlineKeyboardButton('🖋️ Rename', callback_data = "rnme"),
                     InlineKeyboardButton('📼 File-to-Video', callback_data = "f2v")
                 ],
                 [
-                    InlineKeyboardButton('🖼️' Custom Thumbnail, callback_data = "cthumb"),
+                    InlineKeyboardButton('🖼️ Custom Thumbnail', callback_data = "cthumb"),
                     InlineKeyboardButton('👤 About', callback_data = "about")
                 ]
             ]
