@@ -1,7 +1,7 @@
 class Translation(object):
     START_TEXT = """ <b> нι {} , Im a Simple File Renamer + Video Converter Bot with Permanent Thumbnail Support 💥</b> \n
 
-<b>👨🏼‍💻 Maintained by: @NoDroid_Bots </b> \n 
+<b>👨🏼‍💻 Maintained by: @NoDroid_Bots </b>
 """
 
     RENAME_403_ERR = "What Are You Doing? Bruuh!!"
@@ -11,7 +11,7 @@ class Translation(object):
     DOWNLOAD_START = "<b>Downloading 📥 to my Server 💻 !! Please Wait ⏱️</b>"
     UPLOAD_START = "<b>Download Complete - ✅.ɴᴏᴡ ɪ'ᴍ ᴜᴘʟᴏᴀᴅɪɴɢ ᴛᴏ 𝗧𝗚</b>"
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry Do You Think! I'll Upload It?"
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "<b>𝗧𝗵𝗮𝗻𝗸𝗬𝗼𝘂 for Using 𝗠𝗲. Support Our 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 👉 @NoDroid_Bots</b>"
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "𝗧𝗵𝗮𝗻𝗸𝗬𝗼𝘂 <b>for Using</b> 𝗠𝗲. <b>Support Our</b> 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 👉 <b>@NoDroid_Bots</b>"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds.\nUploaded in {} seconds"
     NOT_AUTH_USER_TEXT = "<b>CONTACT @CLaY995</b>"
     NOT_AUTH_USER_TEXT_FILE_SIZE = "IF You Got This Message You Should Contact @NoDroid_Support "
@@ -25,9 +25,9 @@ class Translation(object):
     CUSTOM_CAPTION_UL_FILE = " "
     NO_THUMB_FOUND = "No Thumbnail found"
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
-    IFLONG_FILE_NAME = """You Gotta Be Kidding Me...Decrease The Number Of Letters😆😉"""
-    ABOUT_ME = """<b>Meh : \n A Telegram File Renamer Bot Which Can Rename Telegram Files. \n You Can Set Permanent Thumbnail For The File So You Don't Have To Send Custom Thumbs All The Time.\n \n I can also convert files into videos \n Feedback @CLaY995 If You Found Meh Useful</b>"""
+    IFLONG_FILE_NAME = """<b>You Gotta Be Kidding Me 😆...Decrease The Number Of Letters😆😉</b>"""
+    ABOUT_ME = """<b>🤖 Me: \n▫️ A Telegram File Renamer Bot Which Can Rename Telegram Files. \n▫️ You Can Set Permanent Thumbnail For The File So You Don't Have To Send Custom Thumbs All The Time.\n I can also convert files into videos \n\n▫️ Queries @NoDroid_Support 💭</b>"""
     HELP_USER = """Checkout The Available Commands Here \n\n Do Follow @NoDroid_Bots If You Find This Bot Usefull❤️"""
-    RENAME_HELP = """Here are The Available Commands In Reanme \n\n\n▪️ <code>/rename</code> : Reply To An File/video With <code>/rename Filename.extension</code> For Renaming"""
-    C2V_HELP = """Here Are The Available Commands In File To Video \n\n\n ▪️<code>/c2v</code> : Reply To An File With /c2v To Convert It Into Video"""
-    THUMBNAIL_HELP = """Here Are The Available Commands In Custom Thumbnail \n\n\n ▪️ Send A Photo To Set The Custom Thumbnail \n▪️ <code>/showthumb</code> : For Checking The Current Thumbnail \n▪️<code>/delthumb</code> : For Deleting The Current Saved Thumbnail"""
+    RENAME_HELP = """Here are The Available Commands In Reanme \n\n\n▪️ /rename: Reply To An File/video With <i>/rename Filename.extension</i> For Renaming"""
+    C2V_HELP = """Here Are The Available Commands In File To Video \n\n\n ▪️ /c2v: Reply To An File With /c2v To Convert It Into Video"""
+    THUMBNAIL_HELP = """▫️ Here Are The Available Commands In <b>Custom Thumbnail</b> \n\n\n▪️ Send A Photo To Set The Custom Thumbnail \n▪️ /showthumb: For Checking The Current Thumbnail \n▪️ /delthumb: For Deleting The Current Saved Thumbnail"""
